@@ -30,7 +30,7 @@ header {
   }
 }
 
-li {
+ul li {
   list-style: none;
 }
 
@@ -248,13 +248,14 @@ padding-bottom: 40px;
   margin-top: 15px;
 }
 
-.product > ol {
+.product > ul {
   margin: 15px 0;
   padding: 5px 0px 0px 17px;
   text-align: left;
+  line-height: 1.5;
 }
 
-.product > ol > li {
+.product > ul > li {
   padding: 5px 0px 0px 17px;
   text-align: left;
 }
